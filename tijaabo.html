@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tijaabi</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Tijaabi</div>
+        <ul class="navlist">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="right-content">
+            <a href="" class="nav-btn">Sign In</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+        </header>
+        
+
+        <section class="content">
+            <div class="content-text">
+                <h1>Welcome to Tijaabi</h1>
+                <p>Your one-stop solution for all your testing needs.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                     Praesentium animi nisi tempore, dolor commodi saepe
+                      accusantium autem enim ipsam dicta veritatis
+                     mollitia quam cumque hic illum, quae modi, deleniti ad.
+                </p>
+                <div class="main-content" > 
+                    <a href="#" class="btn">Get Started</a>
+                    <a href="" class="more">£3.00 | <span>Free Trial</span></a>
+                </div>
+                
+            </div>
+            <div class="content-image">
+                <img src="A56FE0FD-816F-4099-A11C-367111F84902.PNG" alt="Tijaabi Image">
+                <iframe width="960" height="315" src="https://www.youtube.com/embed/bBTgyeJnWF4?si=sZv6Avd6_b83Ykze" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>  
+    
+             
+            
+        </section>
+
+        <script> 
+            let menu = document.querySelector('#menu-icon');
+            let navlist = document.querySelector('.navlist');
+
+            menu.onclick = () => {
+                menu.classList.toggle('bx-x');
+                navlist.classList.toggle('open')
+            }
+        </script>
+    
+</body>
+</html>
